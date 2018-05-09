@@ -19,7 +19,7 @@ public  class Main {
         System.out.println("started to download  myj pos data daily and new store&&product...");
         timer4();
     }
-        public static void timer4() { aa
+        public static void timer4() {
             Calendar   cal   =   Calendar.getInstance();
             cal.set(Calendar.HOUR_OF_DAY, Integer.parseInt(propertiesUtil.getProperty("Calendar.HOUR_OF_DAY")));  // 定时
             cal.set(Calendar.MINUTE, Integer.parseInt(propertiesUtil.getProperty("Calendar.MINUTE")));
