@@ -3,6 +3,7 @@ package main;
 import download.FtpDownload;
 import newstoreanditem.NewProduct;
 import newstoreanditem.NewStore;
+import org.apache.log4j.Logger;
 import util.HdfsUtil;
 
 import java.text.SimpleDateFormat;
@@ -13,10 +14,12 @@ import java.util.TimerTask;
 
 public  class Main {
      static  util.PropertiesUtil propertiesUtil=new util.PropertiesUtil();
+     private static Logger logger= Logger.getLogger(Main.class);
     // static Properties properties = new Properties();   //全局变量
 
     public static void main(String[] args) {
         System.out.println("started to download  myj pos data daily and new store&&product...");
+        logger.info("started to download  myj pos data daily and new store&&product...");
         timer4();
     }
         public static void timer4() {
@@ -58,23 +61,27 @@ public  class Main {
                     Boolean isSaturday =cal.get(Calendar.DAY_OF_WEEK) == Calendar.SATURDAY;
                     if (isSunday||isSaturday) {
                         System.out.println("今天是周末，不下载");
+                        logger.info("今天是周末，不下载");
                         //System.exit(1);
                     } else if (cal.get(Calendar.DAY_OF_WEEK) == Calendar.MONDAY) {
                         System.out.println("今天是周一，下载三天的数据");
+                        logger.info("今天是周一，下载三天的数据");
                         FtpDownload.startDownload(today3Minus,yesterday );   //增加日期选择。
                         //newStore.startWork(today3Minus,yesterday,basicInputPath,storeOutPath);
                         //newProduct.startWork(today3Minus,yesterday,basicInputPath,productOutPath);
                         HdfsUtil.moveToHdfs(today3Minus,yesterday);
                     } else {
                         System.out.println("今天不是周末，也不是周一，正常检验昨天的数据文件夹 ，产生昨天的新商品和新店铺。下载昨天数据到hdfs");
+                        logger.info("今天不是周末，也不是周一，正常检验昨天的数据文件夹 ，产生昨天的新商品和新店铺。下载昨天数据到hdfs");   //2个字段
                         //FtpDownload.startDownload( "20180423" ,"20180425");
                         //FileCheckUtil.checkFile("/" );    //ftp默认路径
 
+                        FtpDownload.startDownload( yesterday ,yesterday);
                         //newStore.startWork(daybeforeYesterday,yesterday,propertiesUtil.getProperty("new_input_basicPath"),storeOutPath);
 
                         //newProduct.startWork(daybeforeYesterday,yesterday,propertiesUtil.getProperty("new_input_basicPath"),productOutPath);
 
-                        FtpDownload.startDownload( yesterday ,yesterday);
+
 
                         //HdfsUtil.moveToHdfs(yesterday ,yesterday);
                     }

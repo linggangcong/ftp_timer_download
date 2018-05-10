@@ -1,6 +1,8 @@
 package download;
 
 import ftp.Ftp;
+import main.Main;
+import org.apache.log4j.Logger;
 import util.PropertiesUtil;
 import util.TimeUtil;
 
@@ -12,9 +14,12 @@ import java.util.List;
  */
 public class FtpDownload {
     static PropertiesUtil propertiesUtil=new PropertiesUtil();
+    private static Logger logger= Logger.getLogger(FtpDownload.class);
     //执行的内容
     public static  void startDownload(String startDate ,String endDate ) {
         Ftp ftp = new Ftp(propertiesUtil.getProperty("FtpIP"), 21, propertiesUtil.getProperty("username"), propertiesUtil.getProperty("password"));
+        logger.info("开始登录ftp...");
+        MyjEtlLogUtil.produceEtlMyjErrorLog(dataRealDate, "美宜佳流水数据目录：${flowDataPath} 不存在，程序退出！");
         ftp.ftpLogin();
 
         //连接登录之后，验证ftp文件有效性。

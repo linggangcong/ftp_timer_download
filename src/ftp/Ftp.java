@@ -1,4 +1,5 @@
-package ftp; /**
+package ftp;
+/**
  * Created by SAM on 2018/1/4.
  */
 
@@ -7,6 +8,7 @@ import org.apache.commons.net.ftp.FTPClient;
 import org.apache.commons.net.ftp.FTPClientConfig;
 import org.apache.commons.net.ftp.FTPFile;
 import org.apache.commons.net.ftp.FTPReply;
+import org.apache.log4j.Logger;
 import util.FileCheckUtil;
 import util.PropertiesUtil;
 
@@ -17,6 +19,7 @@ import java.io.IOException;
 import java.util.TimeZone;
 
 public class Ftp {
+    private static Logger logger= Logger.getLogger(Ftp.class);
     private FTPClient ftpClient;
     private String strIp;
     private int intPort;
@@ -52,6 +55,7 @@ public class Ftp {
                 this.ftpClient.disconnect();
                 //logger.error("登录FTP服务失败！");
                 System.out.println("登录FTP服务失败！"); //连接确认。
+                logger.info("登录FTP服务失败！");
                 return isLogin;
             }
 
@@ -61,6 +65,7 @@ public class Ftp {
             this.ftpClient.setFileType(FTPClient.BINARY_FILE_TYPE);
             //logger.info("恭喜" + this.user + "成功登陆FTP服务器");
             System.out.println("恭喜" + this.user + "成功登陆FTP服务器");
+            logger.info("恭喜" + this.user + "成功登陆FTP服务器");
             isLogin = true;
         } catch (Exception e) {
             e.printStackTrace();
@@ -80,10 +85,11 @@ public class Ftp {
                 boolean reuslt = this.ftpClient.logout();// 退出FTP服务器
                 if (reuslt) {
                     System.out.println("成功登出服务器");
+                    logger.info("成功登出服务器");
                 }
             } catch (IOException e) {
                 e.printStackTrace();
-               // logger.warn("退出FTP服务器异常！" + e.getMessage());
+               logger.warn("退出FTP服务器异常！" + e.getMessage());
 
 
             } finally {
@@ -91,7 +97,7 @@ public class Ftp {
                     this.ftpClient.disconnect();  //关闭FTP服务器的连接
                 } catch (IOException e) {
                     e.printStackTrace();
-                   // logger.warn("关闭FTP服务器的连接异常！");
+                   logger.warn("关闭FTP服务器的连接异常！");
                 }
             }
         }

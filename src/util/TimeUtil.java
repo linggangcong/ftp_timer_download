@@ -33,6 +33,11 @@ public class TimeUtil {
         }
         return  dateList;
     }
-
+    public static String getNowDateTimeStamp(){
+        Date now = new Date();
+        SimpleDateFormat dateFormat  = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String nowStr = dateFormat.format(now);
+        return  nowStr;
+    }
 
 }
