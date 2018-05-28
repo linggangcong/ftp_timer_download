@@ -16,13 +16,22 @@ public class EtlLogModel {
     String timestamp=TimeUtil.getNowDateTimeStamp();
     String  IP=NetUtil.getHostAddress();
     String  hostname=NetUtil.getHostName();
+    String  worker="samgao";
 
     public EtlLogModel(String day ,String msg ,String banner , String logLevel,String logType) {
         this.day =day;
         this.banner =banner;
         this.msg = msg;
         this.logType =logType;
-        logLevel = "info";
+        this.logLevel = logLevel;
+    }
+
+    public String getWorker() {
+        return worker;
+    }
+
+    public void setWorker(String worker) {
+        this.worker = worker;
     }
 
     public String getDay() {

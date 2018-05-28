@@ -10,8 +10,7 @@ import java.util.List;
 //从店铺表文件中读出店铺信息。
 public class StoreCsvFileUtil {
 
-    public Hashtable<String,String> read(String pathName) {
-
+    public Hashtable<String,String> read(String pathName ) {
         Hashtable<String,String> table=new Hashtable<String, String>();
         String[] lineNum=null;
 
@@ -21,6 +20,47 @@ public class StoreCsvFileUtil {
             System.out.println("本地没有新店铺的日期文件夹");
             return null;     //弹出， 不会继续运行。
         }*/
+
+
+       /* InputStream in = null;
+        try {
+            String fileName= pathName.substring(pathName.indexOf("/"));
+            //ftpClient.changeWorkingDirectory(filePath);
+            in = ftpClient.retrieveFileStream(fileName);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        if (in != null) {
+            BufferedReader br = new BufferedReader(new InputStreamReader(in));
+            // String data = null;
+            try {
+                String line = "";
+                while ((line = br.readLine()) != null) {
+                    lineNum= line.split("\t",-2);
+                    if( lineNum.length< 5 || lineNum[0].contains("店号")|| lineNum[0].contains("安达")){
+                        continue;
+                    }
+                    String productValue=lineNum[0]+","+lineNum[1]+","+lineNum[3]+","+lineNum[4]+","+""+","+"R10003";
+                    String key =lineNum[0];
+                    table.put(key,productValue);            //读取csv文件，并保存商品编码字段和一行字段进入hashtable。
+                    //System.out.println(key);
+                }
+                br.close();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }finally{
+                try {
+                    ftpClient.disconnect();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }*//*else{
+            logger.error("in为空，不能读取。");
+        }*//*
+        return table;*/
+
 
         try {
             File csv = new File(pathName);  // CSV文件  捕获没有文件的异常，不退出程序。
@@ -37,7 +77,7 @@ public class StoreCsvFileUtil {
                }
                String productValue=lineNum[0]+","+lineNum[1]+","+lineNum[3]+","+lineNum[4]+","+""+","+"R10003";
                String key =lineNum[0];
-                table.put(key,productValue);            //读取csv文件，并保存商品编码字段和一行字段进入hashtable。
+               table.put(key,productValue);            //读取csv文件，并保存商品编码字段和一行字段进入hashtable。
                 //System.out.println(key);
             }
             br.close();

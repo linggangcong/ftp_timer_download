@@ -1,10 +1,7 @@
 package util;
 
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created by SAM on 2018/4/28.
@@ -38,6 +35,20 @@ public class TimeUtil {
         SimpleDateFormat dateFormat  = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String nowStr = dateFormat.format(now);
         return  nowStr;
+    }
+
+    public static String getLatestDay(List<String> dateList){
+        //String latestDay="";
+        if(dateList==null||dateList.size()==0){
+            return null;
+        }
+        SortUtil sort = new SortUtil();
+        Collections.sort(dateList,sort);
+        return  dateList.get(dateList.size()-1);  //最大日期 最近日期
+        /*for(int i=0;i<dateList.size();i++){
+            String temp = dateList.get(i);
+            System.out.println("姓名:"+temp.getName()+",生日:"+temp.getBirthday());
+        }*/
     }
 
 }

@@ -1,0 +1,430 @@
+[INFO ] [2018-05-11 11:19:30] [Main:main:22] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 11:19:30] [Main$1:run:72] 今天不是周末，也不是周一，正常检验昨天的数据文件夹 ，产生昨天的新商品和新店铺。下载昨天数据到hdfs
+[INFO ] [2018-05-11 11:19:30] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-11 11:19:30] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 11:19:30] [FileCheckUtil:checkFile:37] 20180510,服务器存在当天文件夹
+[INFO ] [2018-05-11 11:19:31] [FileCheckUtil:checkFile:72] 金额流水，实物流水,安达便利门店，商品档案表 文件名存在  验证通过 
+[INFO ] [2018-05-11 11:19:42] [Ftp:ftpLogOut:87] 成功登出服务器
+[INFO ] [2018-05-11 11:23:01] [Main:main:22] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 11:23:01] [Main$1:run:72] 今天不是周末，也不是周一，正常检验昨天的数据文件夹 ，产生昨天的新商品和新店铺。下载昨天数据到hdfs
+[INFO ] [2018-05-11 11:23:01] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-11 11:23:01] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 11:23:01] [FileCheckUtil:checkFile:37] 20180510,服务器存在当天文件夹
+[INFO ] [2018-05-11 11:23:02] [FileCheckUtil:checkFile:72] 金额流水，实物流水,安达便利门店，商品档案表 文件名存在  验证通过 
+[INFO ] [2018-05-11 11:23:24] [Ftp:ftpLogOut:87] 成功登出服务器
+[INFO ] [2018-05-11 11:49:34] [Main:main:22] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 11:49:34] [Main$1:run:72] 今天不是周末，也不是周一，正常检验昨天的数据文件夹 ，产生昨天的新商品和新店铺。下载昨天数据到hdfs
+[INFO ] [2018-05-11 11:49:34] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-11 11:49:34] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 11:49:34] [FileCheckUtil:checkFile:38] 20180510,服务器存在当天文件夹
+[INFO ] [2018-05-11 11:49:36] [FileCheckUtil:checkFile:73] 金额流水，实物流水,安达便利门店，商品档案表 文件名存在  验证通过 
+[INFO ] [2018-05-11 11:49:47] [Ftp:ftpLogOut:87] 成功登出服务器
+[INFO ] [2018-05-11 11:51:07] [Main:main:22] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 11:51:07] [Main$1:run:72] 今天不是周末，也不是周一，正常检验昨天的数据文件夹 ，产生昨天的新商品和新店铺。下载昨天数据到hdfs
+[INFO ] [2018-05-11 11:51:07] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-11 11:51:07] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 11:51:08] [FileCheckUtil:checkFile:38] 20180510,服务器存在当天文件夹
+[INFO ] [2018-05-11 11:51:09] [FileCheckUtil:checkFile:73] 金额流水，实物流水,安达便利门店，商品档案表 文件名存在  验证通过 
+[INFO ] [2018-05-11 11:51:17] [Ftp:ftpLogOut:87] 成功登出服务器
+[INFO ] [2018-05-11 12:24:17] [Main:main:22] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 12:24:17] [Main$1:run:72] 今天不是周末，也不是周一，正常检验昨天的数据文件夹 ，产生昨天的新商品和新店铺。下载昨天数据到hdfs
+[INFO ] [2018-05-11 12:24:17] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-11 12:24:17] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 12:24:18] [FileCheckUtil:checkFile:38] 20180510,服务器存在当天文件夹
+[INFO ] [2018-05-11 12:24:19] [FileCheckUtil:checkFile:73] 金额流水，实物流水,安达便利门店，商品档案表 文件名存在  验证通过 
+[INFO ] [2018-05-11 12:24:26] [Ftp:ftpLogOut:87] 成功登出服务器
+[INFO ] [2018-05-11 14:19:58] [Main:main:22] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 14:19:58] [Main$1:run:72] 今天不是周末，也不是周一，正常检验昨天的数据文件夹 ，产生昨天的新商品和新店铺。下载昨天数据到hdfs
+[INFO ] [2018-05-11 14:19:58] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-11 14:19:59] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 14:19:59] [FileCheckUtil:checkFile:35] 20180510,服务器存在当天文件夹
+[INFO ] [2018-05-11 14:20:00] [FileCheckUtil:checkFile:70] 金额流水，实物流水,安达便利门店，商品档案表 文件名存在  验证通过 
+[INFO ] [2018-05-11 14:27:26] [Main:main:22] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 14:27:26] [Main$1:run:72] 今天不是周末，也不是周一，正常检验昨天的数据文件夹 ，产生昨天的新商品和新店铺。下载昨天数据到hdfs
+[INFO ] [2018-05-11 14:27:26] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-11 14:27:26] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 14:27:26] [FileCheckUtil:checkFile:35] 20180510,服务器存在当天文件夹
+[INFO ] [2018-05-11 14:27:27] [FileCheckUtil:checkFile:70] 金额流水，实物流水,安达便利门店，商品档案表 文件名存在  验证通过 
+[INFO ] [2018-05-11 14:31:08] [Main:main:22] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 14:31:08] [Main$1:run:72] 今天不是周末，也不是周一，正常检验昨天的数据文件夹 ，产生昨天的新商品和新店铺。下载昨天数据到hdfs
+[INFO ] [2018-05-11 14:31:08] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-11 14:31:08] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 14:31:08] [FileCheckUtil:checkFile:35] 20180510,服务器存在当天文件夹
+[INFO ] [2018-05-11 14:31:09] [FileCheckUtil:checkFile:70] 金额流水，实物流水,安达便利门店，商品档案表 文件名存在  验证通过 
+[INFO ] [2018-05-11 14:31:09] [Ftp:ftpLogOut:87] 成功登出服务器
+[INFO ] [2018-05-11 14:40:01] [Main:main:22] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 14:40:01] [Main$1:run:72] 今天不是周末，也不是周一，正常检验昨天的数据文件夹 ，产生昨天的新商品和新店铺。下载昨天数据到hdfs
+[INFO ] [2018-05-11 14:40:01] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-11 14:40:01] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 14:40:01] [FileCheckUtil:checkFile:35] 20180510,服务器存在当天文件夹
+[INFO ] [2018-05-11 14:40:02] [FileCheckUtil:checkFile:70] 金额流水，实物流水,安达便利门店，商品档案表 文件名存在  验证通过 
+[INFO ] [2018-05-11 14:40:02] [Ftp:ftpLogOut:87] 成功登出服务器
+[INFO ] [2018-05-11 14:40:55] [Main:main:22] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 14:40:55] [Main$1:run:72] 今天不是周末，也不是周一，正常检验昨天的数据文件夹 ，产生昨天的新商品和新店铺。下载昨天数据到hdfs
+[INFO ] [2018-05-11 14:40:55] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-11 14:40:55] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 14:40:55] [FileCheckUtil:checkFile:35] 20180510,服务器存在当天文件夹
+[INFO ] [2018-05-11 14:40:57] [FileCheckUtil:checkFile:70] 金额流水，实物流水,安达便利门店，商品档案表 文件名存在  验证通过 
+[INFO ] [2018-05-11 14:40:57] [Ftp:ftpLogOut:87] 成功登出服务器
+[INFO ] [2018-05-11 14:42:26] [Main:main:22] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 14:42:26] [Main$1:run:72] 今天不是周末，也不是周一，正常检验昨天的数据文件夹 ，产生昨天的新商品和新店铺。下载昨天数据到hdfs
+[INFO ] [2018-05-11 14:42:26] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-11 14:42:26] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 14:42:26] [FileCheckUtil:checkFile:35] 20180510,服务器存在当天文件夹
+[INFO ] [2018-05-11 14:42:27] [FileCheckUtil:checkFile:70] 金额流水，实物流水,安达便利门店，商品档案表 文件名存在  验证通过 
+[INFO ] [2018-05-11 14:46:19] [Main:main:22] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 14:46:19] [Main$1:run:72] 今天不是周末，也不是周一，正常检验昨天的数据文件夹 ，产生昨天的新商品和新店铺。下载昨天数据到hdfs
+[INFO ] [2018-05-11 14:46:19] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-11 14:46:19] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 14:46:19] [FileCheckUtil:checkFile:35] 20180510,服务器存在当天文件夹
+[INFO ] [2018-05-11 14:46:20] [FileCheckUtil:checkFile:70] 金额流水，实物流水,安达便利门店，商品档案表 文件名存在  验证通过 
+[INFO ] [2018-05-11 14:46:20] [Ftp:ftpLogOut:87] 成功登出服务器
+[WARN ] [2018-05-11 14:46:40] [Ftp:ftpLogOut:91] 退出FTP服务器异常！Software caused connection abort: socket write error
+[INFO ] [2018-05-11 14:46:54] [Main:main:22] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 14:46:54] [Main$1:run:72] 今天不是周末，也不是周一，正常检验昨天的数据文件夹 ，产生昨天的新商品和新店铺。下载昨天数据到hdfs
+[INFO ] [2018-05-11 14:46:54] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-11 14:46:54] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 14:46:54] [FileCheckUtil:checkFile:35] 20180510,服务器存在当天文件夹
+[INFO ] [2018-05-11 14:46:55] [FileCheckUtil:checkFile:70] 金额流水，实物流水,安达便利门店，商品档案表 文件名存在  验证通过 
+[INFO ] [2018-05-11 14:46:55] [Ftp:ftpLogOut:87] 成功登出服务器
+[INFO ] [2018-05-11 14:58:17] [Main:main:22] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 14:58:17] [Main$1:run:72] 今天不是周末，也不是周一，正常检验昨天的数据文件夹 ，产生昨天的新商品和新店铺。下载昨天数据到hdfs
+[INFO ] [2018-05-11 14:58:17] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-11 14:58:17] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 14:58:17] [FileCheckUtil:checkFile:35] 20180510,服务器存在当天文件夹
+[INFO ] [2018-05-11 14:58:18] [FileCheckUtil:checkFile:70] 金额流水，实物流水,安达便利门店，商品档案表 文件名存在  验证通过 
+[INFO ] [2018-05-11 14:58:18] [Ftp:ftpLogOut:87] 成功登出服务器
+[INFO ] [2018-05-11 14:58:49] [Main:main:22] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 14:58:49] [Main$1:run:72] 今天不是周末，也不是周一，正常检验昨天的数据文件夹 ，产生昨天的新商品和新店铺。下载昨天数据到hdfs
+[INFO ] [2018-05-11 14:58:49] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-11 14:58:49] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 14:58:49] [FileCheckUtil:checkFile:35] 20180510,服务器存在当天文件夹
+[INFO ] [2018-05-11 14:58:51] [FileCheckUtil:checkFile:70] 金额流水，实物流水,安达便利门店，商品档案表 文件名存在  验证通过 
+[INFO ] [2018-05-11 15:08:08] [Main:main:22] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 15:08:09] [Main$1:run:72] 今天不是周末，也不是周一，正常检验昨天的数据文件夹 ，产生昨天的新商品和新店铺。下载昨天数据到hdfs
+[INFO ] [2018-05-11 15:08:09] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-11 15:08:09] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 15:08:09] [FileCheckUtil:checkFile:35] 20180510,服务器存在当天文件夹
+[INFO ] [2018-05-11 15:08:11] [FileCheckUtil:checkFile:70] 金额流水，实物流水,安达便利门店，商品档案表 文件名存在  验证通过 
+[INFO ] [2018-05-11 15:08:11] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 15:08:20] [Ftp:ftpLogOut:87] 成功登出服务器
+[WARN ] [2018-05-11 15:20:36] [Ftp:ftpLogOut:91] 退出FTP服务器异常！Software caused connection abort: socket write error
+[INFO ] [2018-05-11 15:20:51] [Main:main:22] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 15:20:51] [Main$1:run:72] 今天不是周末，也不是周一，正常检验昨天的数据文件夹 ，产生昨天的新商品和新店铺。下载昨天数据到hdfs
+[INFO ] [2018-05-11 15:20:51] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-11 15:20:52] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 15:20:52] [FileCheckUtil:checkFile:35] 20180510,服务器存在当天文件夹
+[INFO ] [2018-05-11 15:20:53] [FileCheckUtil:checkFile:70] 金额流水，实物流水,安达便利门店，商品档案表 文件名存在  验证通过 
+[INFO ] [2018-05-11 15:20:53] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 15:21:14] [Ftp:ftpLogOut:87] 成功登出服务器
+[INFO ] [2018-05-11 15:21:14] [Configuration:warnOnceIfDeprecated:1173] fs.default.name is deprecated. Instead, use fs.defaultFS
+[DEBUG] [2018-05-11 15:21:14] [MutableMetricsFactory:newForField:42] field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, value=[Rate of successful kerberos logins and latency (milliseconds)], about=, always=false, type=DEFAULT, sampleName=Ops)
+[DEBUG] [2018-05-11 15:21:14] [MutableMetricsFactory:newForField:42] field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, value=[Rate of failed kerberos logins and latency (milliseconds)], about=, always=false, type=DEFAULT, sampleName=Ops)
+[DEBUG] [2018-05-11 15:21:14] [MutableMetricsFactory:newForField:42] field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, value=[GetGroups], about=, always=false, type=DEFAULT, sampleName=Ops)
+[DEBUG] [2018-05-11 15:21:14] [MetricsSystemImpl:register:232] UgiMetrics, User and group related metrics
+[DEBUG] [2018-05-11 15:21:15] [KerberosName:<clinit>:89] Kerberos krb5 configuration not found, setting default realm to empty
+[DEBUG] [2018-05-11 15:21:15] [Groups:getUserToGroupsMappingService:301]  Creating new Groups object
+[DEBUG] [2018-05-11 15:21:15] [NativeCodeLoader:<clinit>:46] Trying to load the custom-built native-hadoop library...
+[DEBUG] [2018-05-11 15:21:15] [NativeCodeLoader:<clinit>:50] Loaded the native-hadoop library
+[DEBUG] [2018-05-11 15:21:15] [JniBasedUnixGroupsMapping:<clinit>:50] Using JniBasedUnixGroupsMapping for Group resolution
+[DEBUG] [2018-05-11 15:21:15] [JniBasedUnixGroupsMappingWithFallback:<init>:45] Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
+[DEBUG] [2018-05-11 15:21:15] [Groups:<init>:112] Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+[DEBUG] [2018-05-11 15:21:15] [UserGroupInformation$HadoopLoginModule:login:223] hadoop login
+[DEBUG] [2018-05-11 15:21:15] [UserGroupInformation$HadoopLoginModule:commit:158] hadoop login commit
+[DEBUG] [2018-05-11 15:21:15] [UserGroupInformation$HadoopLoginModule:commit:188] using local user:NTUserPrincipal: SAM
+[DEBUG] [2018-05-11 15:21:15] [UserGroupInformation$HadoopLoginModule:commit:194] Using user: "NTUserPrincipal: SAM" with name SAM
+[DEBUG] [2018-05-11 15:21:15] [UserGroupInformation$HadoopLoginModule:commit:204] User entry: "SAM"
+[DEBUG] [2018-05-11 15:21:15] [UserGroupInformation:loginUserFromSubject:816] Assuming keytab is managed externally since logged in from subject.
+[DEBUG] [2018-05-11 15:21:15] [UserGroupInformation:loginUserFromSubject:844] UGI loginUser:SAM (auth:SIMPLE)
+[DEBUG] [2018-05-11 15:21:15] [DFSClient$Conf:<init>:457] dfs.client.use.legacy.blockreader.local = false
+[DEBUG] [2018-05-11 15:21:15] [DFSClient$Conf:<init>:460] dfs.client.read.shortcircuit = false
+[DEBUG] [2018-05-11 15:21:15] [DFSClient$Conf:<init>:463] dfs.client.domain.socket.data.traffic = false
+[DEBUG] [2018-05-11 15:21:15] [DFSClient$Conf:<init>:466] dfs.domain.socket.path = 
+[DEBUG] [2018-05-11 15:21:15] [RetryUtils:getDefaultRetryPolicy:75] multipleLinearRandomRetry = null
+[DEBUG] [2018-05-11 15:21:15] [Server:registerProtocolEngine:237] rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@14845f90
+[DEBUG] [2018-05-11 15:21:15] [ClientCache:getClient:63] getting client out of cache: org.apache.hadoop.ipc.Client@737a5c01
+[DEBUG] [2018-05-11 15:21:16] [DomainSocketFactory:<init>:110] Both short-circuit local reads and UNIX domain socket are disabled.
+[DEBUG] [2018-05-11 15:21:16] [DataTransferSaslUtil:getSaslPropertiesResolver:183] DataTransferProtocol not using SaslPropertiesResolver, no QOP found in configuration for dfs.data.transfer.protection
+[DEBUG] [2018-05-11 15:21:16] [Client$Connection:<init>:435] The ping interval is 60000 ms.
+[DEBUG] [2018-05-11 15:21:16] [Client$Connection:setupIOstreams:705] Connecting to /192.168.0.182:8020
+[DEBUG] [2018-05-11 15:21:16] [Client$Connection:run:975] IPC Client (1097294232) connection to /192.168.0.182:8020 from SAM: starting, having connections 1
+[DEBUG] [2018-05-11 15:21:16] [Client$Connection$3:run:1038] IPC Client (1097294232) connection to /192.168.0.182:8020 from SAM sending #0
+[DEBUG] [2018-05-11 15:21:16] [Client$Connection:receiveRpcResponse:1095] IPC Client (1097294232) connection to /192.168.0.182:8020 from SAM got value #0
+[DEBUG] [2018-05-11 15:21:16] [ProtobufRpcEngine$Invoker:invoke:250] Call: getFileInfo took 68ms
+[DEBUG] [2018-05-11 15:21:16] [Client$Connection$3:run:1038] IPC Client (1097294232) connection to /192.168.0.182:8020 from SAM sending #1
+[DEBUG] [2018-05-11 15:21:16] [Client$Connection:receiveRpcResponse:1095] IPC Client (1097294232) connection to /192.168.0.182:8020 from SAM got value #1
+[DEBUG] [2018-05-11 15:21:26] [Client$Connection:close:1198] IPC Client (1097294232) connection to /192.168.0.182:8020 from SAM: closed
+[DEBUG] [2018-05-11 15:21:26] [Client$Connection:run:993] IPC Client (1097294232) connection to /192.168.0.182:8020 from SAM: stopped, remaining connections 0
+[INFO ] [2018-05-11 15:27:17] [Main:main:22] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 15:27:17] [Main$1:run:72] 今天不是周末，也不是周一，正常检验昨天的数据文件夹 ，产生昨天的新商品和新店铺。下载昨天数据到hdfs
+[INFO ] [2018-05-11 15:27:17] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-11 15:27:17] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 15:27:17] [FileCheckUtil:checkFile:35] 20180510,服务器存在当天文件夹
+[INFO ] [2018-05-11 15:27:19] [FileCheckUtil:checkFile:70] 金额流水，实物流水,安达便利门店，商品档案表 文件名存在  验证通过 
+[INFO ] [2018-05-11 15:27:19] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 15:27:29] [Ftp:ftpLogOut:87] 成功登出服务器
+[INFO ] [2018-05-11 15:27:29] [Configuration:warnOnceIfDeprecated:1173] fs.default.name is deprecated. Instead, use fs.defaultFS
+[DEBUG] [2018-05-11 15:27:29] [MutableMetricsFactory:newForField:42] field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, valueName=Time, value=[Rate of successful kerberos logins and latency (milliseconds)], type=DEFAULT, always=false, sampleName=Ops)
+[DEBUG] [2018-05-11 15:27:29] [MutableMetricsFactory:newForField:42] field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, valueName=Time, value=[Rate of failed kerberos logins and latency (milliseconds)], type=DEFAULT, always=false, sampleName=Ops)
+[DEBUG] [2018-05-11 15:27:29] [MutableMetricsFactory:newForField:42] field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, valueName=Time, value=[GetGroups], type=DEFAULT, always=false, sampleName=Ops)
+[DEBUG] [2018-05-11 15:27:29] [MetricsSystemImpl:register:232] UgiMetrics, User and group related metrics
+[DEBUG] [2018-05-11 15:27:29] [KerberosName:<clinit>:89] Kerberos krb5 configuration not found, setting default realm to empty
+[DEBUG] [2018-05-11 15:27:29] [Groups:getUserToGroupsMappingService:301]  Creating new Groups object
+[DEBUG] [2018-05-11 15:27:29] [NativeCodeLoader:<clinit>:46] Trying to load the custom-built native-hadoop library...
+[DEBUG] [2018-05-11 15:27:29] [NativeCodeLoader:<clinit>:50] Loaded the native-hadoop library
+[DEBUG] [2018-05-11 15:27:29] [JniBasedUnixGroupsMapping:<clinit>:50] Using JniBasedUnixGroupsMapping for Group resolution
+[DEBUG] [2018-05-11 15:27:29] [JniBasedUnixGroupsMappingWithFallback:<init>:45] Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
+[DEBUG] [2018-05-11 15:27:29] [Groups:<init>:112] Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+[DEBUG] [2018-05-11 15:27:29] [UserGroupInformation$HadoopLoginModule:login:223] hadoop login
+[DEBUG] [2018-05-11 15:27:29] [UserGroupInformation$HadoopLoginModule:commit:158] hadoop login commit
+[DEBUG] [2018-05-11 15:27:29] [UserGroupInformation$HadoopLoginModule:commit:188] using local user:NTUserPrincipal: SAM
+[DEBUG] [2018-05-11 15:27:29] [UserGroupInformation$HadoopLoginModule:commit:194] Using user: "NTUserPrincipal: SAM" with name SAM
+[DEBUG] [2018-05-11 15:27:29] [UserGroupInformation$HadoopLoginModule:commit:204] User entry: "SAM"
+[DEBUG] [2018-05-11 15:27:29] [UserGroupInformation:loginUserFromSubject:816] Assuming keytab is managed externally since logged in from subject.
+[DEBUG] [2018-05-11 15:27:29] [UserGroupInformation:loginUserFromSubject:844] UGI loginUser:SAM (auth:SIMPLE)
+[DEBUG] [2018-05-11 15:27:29] [DFSClient$Conf:<init>:457] dfs.client.use.legacy.blockreader.local = false
+[DEBUG] [2018-05-11 15:27:29] [DFSClient$Conf:<init>:460] dfs.client.read.shortcircuit = false
+[DEBUG] [2018-05-11 15:27:29] [DFSClient$Conf:<init>:463] dfs.client.domain.socket.data.traffic = false
+[DEBUG] [2018-05-11 15:27:29] [DFSClient$Conf:<init>:466] dfs.domain.socket.path = 
+[DEBUG] [2018-05-11 15:27:30] [RetryUtils:getDefaultRetryPolicy:75] multipleLinearRandomRetry = null
+[DEBUG] [2018-05-11 15:27:30] [Server:registerProtocolEngine:237] rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@33da79b1
+[DEBUG] [2018-05-11 15:27:30] [ClientCache:getClient:63] getting client out of cache: org.apache.hadoop.ipc.Client@148122ba
+[DEBUG] [2018-05-11 15:27:30] [DomainSocketFactory:<init>:110] Both short-circuit local reads and UNIX domain socket are disabled.
+[DEBUG] [2018-05-11 15:27:30] [DataTransferSaslUtil:getSaslPropertiesResolver:183] DataTransferProtocol not using SaslPropertiesResolver, no QOP found in configuration for dfs.data.transfer.protection
+[DEBUG] [2018-05-11 15:27:30] [Client$Connection:<init>:435] The ping interval is 60000 ms.
+[DEBUG] [2018-05-11 15:27:30] [Client$Connection:setupIOstreams:705] Connecting to /192.168.0.182:8020
+[DEBUG] [2018-05-11 15:27:30] [Client$Connection:run:975] IPC Client (1531395369) connection to /192.168.0.182:8020 from SAM: starting, having connections 1
+[DEBUG] [2018-05-11 15:27:30] [Client$Connection$3:run:1038] IPC Client (1531395369) connection to /192.168.0.182:8020 from SAM sending #0
+[DEBUG] [2018-05-11 15:27:30] [Client$Connection:receiveRpcResponse:1095] IPC Client (1531395369) connection to /192.168.0.182:8020 from SAM got value #0
+[DEBUG] [2018-05-11 15:27:30] [ProtobufRpcEngine$Invoker:invoke:250] Call: getFileInfo took 55ms
+[DEBUG] [2018-05-11 15:27:30] [Client$Connection$3:run:1038] IPC Client (1531395369) connection to /192.168.0.182:8020 from SAM sending #1
+[DEBUG] [2018-05-11 15:27:30] [Client$Connection:receiveRpcResponse:1095] IPC Client (1531395369) connection to /192.168.0.182:8020 from SAM got value #1
+[INFO ] [2018-05-11 15:46:09] [Main:main:18] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 15:46:09] [Main:main:44] 今天不是周末，也不是周一，正常检验昨天的数据文件夹 ，产生昨天的新商品和新店铺。下载昨天数据到hdfs
+[INFO ] [2018-05-11 15:46:09] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-11 15:46:09] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 15:46:09] [FileCheckUtil:checkFile:35] 20180510,服务器存在当天文件夹
+[INFO ] [2018-05-11 15:46:11] [FileCheckUtil:checkFile:70] 金额流水，实物流水,安达便利门店，商品档案表 文件名存在  验证通过 
+[INFO ] [2018-05-11 15:46:11] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 15:53:40] [Main:main:37] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 15:53:40] [Main:main:63] 今天不是周末，也不是周一，正常检验昨天的数据文件夹 ，产生昨天的新商品和新店铺。下载昨天数据到hdfs
+[INFO ] [2018-05-11 15:53:40] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-11 15:53:40] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 15:53:40] [FileCheckUtil:checkFile:35] 20180510,服务器存在当天文件夹
+[INFO ] [2018-05-11 15:53:41] [FileCheckUtil:checkFile:70] 金额流水，实物流水,安达便利门店，商品档案表 文件名存在  验证通过 
+[INFO ] [2018-05-11 15:53:41] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 15:53:51] [Ftp:ftpLogOut:87] 成功登出服务器
+[INFO ] [2018-05-11 15:53:51] [Configuration:warnOnceIfDeprecated:1173] fs.default.name is deprecated. Instead, use fs.defaultFS
+[DEBUG] [2018-05-11 15:53:51] [MutableMetricsFactory:newForField:42] field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, about=, value=[Rate of successful kerberos logins and latency (milliseconds)], type=DEFAULT, always=false, sampleName=Ops)
+[DEBUG] [2018-05-11 15:53:51] [MutableMetricsFactory:newForField:42] field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, about=, value=[Rate of failed kerberos logins and latency (milliseconds)], type=DEFAULT, always=false, sampleName=Ops)
+[DEBUG] [2018-05-11 15:53:51] [MutableMetricsFactory:newForField:42] field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, about=, value=[GetGroups], type=DEFAULT, always=false, sampleName=Ops)
+[DEBUG] [2018-05-11 15:53:51] [MetricsSystemImpl:register:232] UgiMetrics, User and group related metrics
+[DEBUG] [2018-05-11 15:53:52] [KerberosName:<clinit>:89] Kerberos krb5 configuration not found, setting default realm to empty
+[DEBUG] [2018-05-11 15:53:52] [Groups:getUserToGroupsMappingService:301]  Creating new Groups object
+[DEBUG] [2018-05-11 15:53:52] [NativeCodeLoader:<clinit>:46] Trying to load the custom-built native-hadoop library...
+[DEBUG] [2018-05-11 15:53:52] [NativeCodeLoader:<clinit>:50] Loaded the native-hadoop library
+[DEBUG] [2018-05-11 15:53:52] [JniBasedUnixGroupsMapping:<clinit>:50] Using JniBasedUnixGroupsMapping for Group resolution
+[DEBUG] [2018-05-11 15:53:52] [JniBasedUnixGroupsMappingWithFallback:<init>:45] Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
+[DEBUG] [2018-05-11 15:53:52] [Groups:<init>:112] Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+[DEBUG] [2018-05-11 15:53:52] [UserGroupInformation$HadoopLoginModule:login:223] hadoop login
+[DEBUG] [2018-05-11 15:53:52] [UserGroupInformation$HadoopLoginModule:commit:158] hadoop login commit
+[DEBUG] [2018-05-11 15:53:52] [UserGroupInformation$HadoopLoginModule:commit:188] using local user:NTUserPrincipal: SAM
+[DEBUG] [2018-05-11 15:53:52] [UserGroupInformation$HadoopLoginModule:commit:194] Using user: "NTUserPrincipal: SAM" with name SAM
+[DEBUG] [2018-05-11 15:53:52] [UserGroupInformation$HadoopLoginModule:commit:204] User entry: "SAM"
+[DEBUG] [2018-05-11 15:53:52] [UserGroupInformation:loginUserFromSubject:816] Assuming keytab is managed externally since logged in from subject.
+[DEBUG] [2018-05-11 15:53:52] [UserGroupInformation:loginUserFromSubject:844] UGI loginUser:SAM (auth:SIMPLE)
+[DEBUG] [2018-05-11 15:53:52] [DFSClient$Conf:<init>:457] dfs.client.use.legacy.blockreader.local = false
+[DEBUG] [2018-05-11 15:53:52] [DFSClient$Conf:<init>:460] dfs.client.read.shortcircuit = false
+[DEBUG] [2018-05-11 15:53:52] [DFSClient$Conf:<init>:463] dfs.client.domain.socket.data.traffic = false
+[DEBUG] [2018-05-11 15:53:52] [DFSClient$Conf:<init>:466] dfs.domain.socket.path = 
+[DEBUG] [2018-05-11 15:53:52] [RetryUtils:getDefaultRetryPolicy:75] multipleLinearRandomRetry = null
+[DEBUG] [2018-05-11 15:53:52] [Server:registerProtocolEngine:237] rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@5e5ecf
+[DEBUG] [2018-05-11 15:53:52] [ClientCache:getClient:63] getting client out of cache: org.apache.hadoop.ipc.Client@47773ae3
+[DEBUG] [2018-05-11 15:53:52] [DomainSocketFactory:<init>:110] Both short-circuit local reads and UNIX domain socket are disabled.
+[DEBUG] [2018-05-11 15:53:52] [DataTransferSaslUtil:getSaslPropertiesResolver:183] DataTransferProtocol not using SaslPropertiesResolver, no QOP found in configuration for dfs.data.transfer.protection
+[DEBUG] [2018-05-11 15:53:52] [Client$Connection:<init>:435] The ping interval is 60000 ms.
+[DEBUG] [2018-05-11 15:53:52] [Client$Connection:setupIOstreams:705] Connecting to /192.168.0.182:8020
+[DEBUG] [2018-05-11 15:53:52] [Client$Connection:run:975] IPC Client (1051710599) connection to /192.168.0.182:8020 from SAM: starting, having connections 1
+[DEBUG] [2018-05-11 15:53:52] [Client$Connection$3:run:1038] IPC Client (1051710599) connection to /192.168.0.182:8020 from SAM sending #0
+[DEBUG] [2018-05-11 15:53:53] [Client$Connection:receiveRpcResponse:1095] IPC Client (1051710599) connection to /192.168.0.182:8020 from SAM got value #0
+[DEBUG] [2018-05-11 15:53:53] [ProtobufRpcEngine$Invoker:invoke:250] Call: getFileInfo took 78ms
+[DEBUG] [2018-05-11 15:53:53] [Client$Connection$3:run:1038] IPC Client (1051710599) connection to /192.168.0.182:8020 from SAM sending #1
+[DEBUG] [2018-05-11 15:53:53] [Client$Connection:receiveRpcResponse:1095] IPC Client (1051710599) connection to /192.168.0.182:8020 from SAM got value #1
+[DEBUG] [2018-05-11 15:53:53] [ClientCache:stopClient:97] stopping client from cache: org.apache.hadoop.ipc.Client@47773ae3
+[DEBUG] [2018-05-11 15:53:53] [ClientCache:stopClient:103] removing client from cache: org.apache.hadoop.ipc.Client@47773ae3
+[DEBUG] [2018-05-11 15:53:53] [ClientCache:stopClient:110] stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@47773ae3
+[DEBUG] [2018-05-11 15:53:53] [Client:stop:1248] Stopping client
+[INFO ] [2018-05-11 17:54:56] [Main:main:21] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 17:55:21] [Main:main:21] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 17:56:52] [Main:main:21] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 17:58:24] [Main:main:21] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 18:25:15] [Main:main:21] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 18:25:21] [Main:main:21] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 18:32:22] [Main:main:20] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 18:33:40] [Main:main:20] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 18:37:10] [Main:main:20] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 18:37:11] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-11 18:37:11] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 18:37:11] [FileCheckUtil:checkFile:35] 20180510,服务器存在当天文件夹
+[INFO ] [2018-05-11 18:37:12] [FileCheckUtil:checkFile:70] 金额流水，实物流水,安达便利门店，商品档案表 文件名存在  验证通过 
+[INFO ] [2018-05-11 18:37:12] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 18:37:21] [Ftp:ftpLogOut:87] 成功登出服务器
+[INFO ] [2018-05-11 18:37:21] [Configuration:warnOnceIfDeprecated:1173] fs.default.name is deprecated. Instead, use fs.defaultFS
+[DEBUG] [2018-05-11 18:37:21] [MutableMetricsFactory:newForField:42] field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, about=, value=[Rate of successful kerberos logins and latency (milliseconds)], type=DEFAULT, always=false, sampleName=Ops)
+[DEBUG] [2018-05-11 18:37:21] [MutableMetricsFactory:newForField:42] field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, about=, value=[Rate of failed kerberos logins and latency (milliseconds)], type=DEFAULT, always=false, sampleName=Ops)
+[DEBUG] [2018-05-11 18:37:21] [MutableMetricsFactory:newForField:42] field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, about=, value=[GetGroups], type=DEFAULT, always=false, sampleName=Ops)
+[DEBUG] [2018-05-11 18:37:21] [MetricsSystemImpl:register:232] UgiMetrics, User and group related metrics
+[DEBUG] [2018-05-11 18:37:21] [KerberosName:<clinit>:89] Kerberos krb5 configuration not found, setting default realm to empty
+[DEBUG] [2018-05-11 18:37:21] [Groups:getUserToGroupsMappingService:301]  Creating new Groups object
+[DEBUG] [2018-05-11 18:37:21] [NativeCodeLoader:<clinit>:46] Trying to load the custom-built native-hadoop library...
+[DEBUG] [2018-05-11 18:37:21] [NativeCodeLoader:<clinit>:50] Loaded the native-hadoop library
+[DEBUG] [2018-05-11 18:37:21] [JniBasedUnixGroupsMapping:<clinit>:50] Using JniBasedUnixGroupsMapping for Group resolution
+[DEBUG] [2018-05-11 18:37:21] [JniBasedUnixGroupsMappingWithFallback:<init>:45] Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
+[DEBUG] [2018-05-11 18:37:21] [Groups:<init>:112] Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+[DEBUG] [2018-05-11 18:37:21] [UserGroupInformation$HadoopLoginModule:login:223] hadoop login
+[DEBUG] [2018-05-11 18:37:21] [UserGroupInformation$HadoopLoginModule:commit:158] hadoop login commit
+[DEBUG] [2018-05-11 18:37:21] [UserGroupInformation$HadoopLoginModule:commit:188] using local user:NTUserPrincipal: SAM
+[DEBUG] [2018-05-11 18:37:21] [UserGroupInformation$HadoopLoginModule:commit:194] Using user: "NTUserPrincipal: SAM" with name SAM
+[DEBUG] [2018-05-11 18:37:21] [UserGroupInformation$HadoopLoginModule:commit:204] User entry: "SAM"
+[DEBUG] [2018-05-11 18:37:21] [UserGroupInformation:loginUserFromSubject:816] Assuming keytab is managed externally since logged in from subject.
+[DEBUG] [2018-05-11 18:37:21] [UserGroupInformation:loginUserFromSubject:844] UGI loginUser:SAM (auth:SIMPLE)
+[DEBUG] [2018-05-11 18:37:22] [DFSClient$Conf:<init>:457] dfs.client.use.legacy.blockreader.local = false
+[DEBUG] [2018-05-11 18:37:22] [DFSClient$Conf:<init>:460] dfs.client.read.shortcircuit = false
+[DEBUG] [2018-05-11 18:37:22] [DFSClient$Conf:<init>:463] dfs.client.domain.socket.data.traffic = false
+[DEBUG] [2018-05-11 18:37:22] [DFSClient$Conf:<init>:466] dfs.domain.socket.path = 
+[DEBUG] [2018-05-11 18:37:22] [RetryUtils:getDefaultRetryPolicy:75] multipleLinearRandomRetry = null
+[DEBUG] [2018-05-11 18:37:22] [Server:registerProtocolEngine:237] rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@265a1699
+[DEBUG] [2018-05-11 18:37:22] [ClientCache:getClient:63] getting client out of cache: org.apache.hadoop.ipc.Client@26ee8a8a
+[DEBUG] [2018-05-11 18:37:22] [DomainSocketFactory:<init>:110] Both short-circuit local reads and UNIX domain socket are disabled.
+[DEBUG] [2018-05-11 18:37:22] [DataTransferSaslUtil:getSaslPropertiesResolver:183] DataTransferProtocol not using SaslPropertiesResolver, no QOP found in configuration for dfs.data.transfer.protection
+[DEBUG] [2018-05-11 18:37:22] [Client$Connection:<init>:435] The ping interval is 60000 ms.
+[DEBUG] [2018-05-11 18:37:22] [Client$Connection:setupIOstreams:705] Connecting to /192.168.0.182:8020
+[DEBUG] [2018-05-11 18:37:22] [Client$Connection:run:975] IPC Client (374075647) connection to /192.168.0.182:8020 from SAM: starting, having connections 1
+[DEBUG] [2018-05-11 18:37:22] [Client$Connection$3:run:1038] IPC Client (374075647) connection to /192.168.0.182:8020 from SAM sending #0
+[DEBUG] [2018-05-11 18:37:22] [Client$Connection:receiveRpcResponse:1095] IPC Client (374075647) connection to /192.168.0.182:8020 from SAM got value #0
+[DEBUG] [2018-05-11 18:37:22] [ProtobufRpcEngine$Invoker:invoke:250] Call: getFileInfo took 56ms
+[DEBUG] [2018-05-11 18:37:22] [Client$Connection$3:run:1038] IPC Client (374075647) connection to /192.168.0.182:8020 from SAM sending #1
+[DEBUG] [2018-05-11 18:37:22] [Client$Connection:receiveRpcResponse:1095] IPC Client (374075647) connection to /192.168.0.182:8020 from SAM got value #1
+[DEBUG] [2018-05-11 18:37:22] [ClientCache:stopClient:97] stopping client from cache: org.apache.hadoop.ipc.Client@26ee8a8a
+[DEBUG] [2018-05-11 18:37:22] [ClientCache:stopClient:103] removing client from cache: org.apache.hadoop.ipc.Client@26ee8a8a
+[DEBUG] [2018-05-11 18:37:22] [ClientCache:stopClient:110] stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@26ee8a8a
+[DEBUG] [2018-05-11 18:37:22] [Client:stop:1248] Stopping client
+[DEBUG] [2018-05-11 18:37:22] [Client$Connection:close:1198] IPC Client (374075647) connection to /192.168.0.182:8020 from SAM: closed
+[DEBUG] [2018-05-11 18:37:22] [Client$Connection:run:993] IPC Client (374075647) connection to /192.168.0.182:8020 from SAM: stopped, remaining connections 0
+[INFO ] [2018-05-11 18:38:36] [Main:main:21] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 18:38:37] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-11 18:38:37] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 18:38:37] [FileCheckUtil:checkFile:35] 20180510,服务器存在当天文件夹
+[INFO ] [2018-05-11 18:38:38] [FileCheckUtil:checkFile:70] 金额流水，实物流水,安达便利门店，商品档案表 文件名存在  验证通过 
+[INFO ] [2018-05-11 18:38:38] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 18:38:47] [Ftp:ftpLogOut:87] 成功登出服务器
+[INFO ] [2018-05-11 18:38:47] [Configuration:warnOnceIfDeprecated:1173] fs.default.name is deprecated. Instead, use fs.defaultFS
+[DEBUG] [2018-05-11 18:38:47] [MutableMetricsFactory:newForField:42] field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, about=, value=[Rate of successful kerberos logins and latency (milliseconds)], type=DEFAULT, always=false, sampleName=Ops)
+[DEBUG] [2018-05-11 18:38:47] [MutableMetricsFactory:newForField:42] field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, about=, value=[Rate of failed kerberos logins and latency (milliseconds)], type=DEFAULT, always=false, sampleName=Ops)
+[DEBUG] [2018-05-11 18:38:47] [MutableMetricsFactory:newForField:42] field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, about=, value=[GetGroups], type=DEFAULT, always=false, sampleName=Ops)
+[DEBUG] [2018-05-11 18:38:47] [MetricsSystemImpl:register:232] UgiMetrics, User and group related metrics
+[DEBUG] [2018-05-11 18:38:47] [KerberosName:<clinit>:89] Kerberos krb5 configuration not found, setting default realm to empty
+[DEBUG] [2018-05-11 18:38:47] [Groups:getUserToGroupsMappingService:301]  Creating new Groups object
+[DEBUG] [2018-05-11 18:38:47] [NativeCodeLoader:<clinit>:46] Trying to load the custom-built native-hadoop library...
+[DEBUG] [2018-05-11 18:38:47] [NativeCodeLoader:<clinit>:50] Loaded the native-hadoop library
+[DEBUG] [2018-05-11 18:38:47] [JniBasedUnixGroupsMapping:<clinit>:50] Using JniBasedUnixGroupsMapping for Group resolution
+[DEBUG] [2018-05-11 18:38:47] [JniBasedUnixGroupsMappingWithFallback:<init>:45] Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
+[DEBUG] [2018-05-11 18:38:47] [Groups:<init>:112] Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+[DEBUG] [2018-05-11 18:38:47] [UserGroupInformation$HadoopLoginModule:login:223] hadoop login
+[DEBUG] [2018-05-11 18:38:47] [UserGroupInformation$HadoopLoginModule:commit:158] hadoop login commit
+[DEBUG] [2018-05-11 18:38:47] [UserGroupInformation$HadoopLoginModule:commit:188] using local user:NTUserPrincipal: SAM
+[DEBUG] [2018-05-11 18:38:47] [UserGroupInformation$HadoopLoginModule:commit:194] Using user: "NTUserPrincipal: SAM" with name SAM
+[DEBUG] [2018-05-11 18:38:47] [UserGroupInformation$HadoopLoginModule:commit:204] User entry: "SAM"
+[DEBUG] [2018-05-11 18:38:47] [UserGroupInformation:loginUserFromSubject:816] Assuming keytab is managed externally since logged in from subject.
+[DEBUG] [2018-05-11 18:38:47] [UserGroupInformation:loginUserFromSubject:844] UGI loginUser:SAM (auth:SIMPLE)
+[DEBUG] [2018-05-11 18:38:47] [DFSClient$Conf:<init>:457] dfs.client.use.legacy.blockreader.local = false
+[DEBUG] [2018-05-11 18:38:47] [DFSClient$Conf:<init>:460] dfs.client.read.shortcircuit = false
+[DEBUG] [2018-05-11 18:38:47] [DFSClient$Conf:<init>:463] dfs.client.domain.socket.data.traffic = false
+[DEBUG] [2018-05-11 18:38:47] [DFSClient$Conf:<init>:466] dfs.domain.socket.path = 
+[DEBUG] [2018-05-11 18:38:47] [RetryUtils:getDefaultRetryPolicy:75] multipleLinearRandomRetry = null
+[DEBUG] [2018-05-11 18:38:47] [Server:registerProtocolEngine:237] rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@6f13f427
+[DEBUG] [2018-05-11 18:38:47] [ClientCache:getClient:63] getting client out of cache: org.apache.hadoop.ipc.Client@676c3dce
+[DEBUG] [2018-05-11 18:38:48] [DomainSocketFactory:<init>:110] Both short-circuit local reads and UNIX domain socket are disabled.
+[DEBUG] [2018-05-11 18:38:48] [DataTransferSaslUtil:getSaslPropertiesResolver:183] DataTransferProtocol not using SaslPropertiesResolver, no QOP found in configuration for dfs.data.transfer.protection
+[DEBUG] [2018-05-11 18:38:48] [Client$Connection:<init>:435] The ping interval is 60000 ms.
+[DEBUG] [2018-05-11 18:38:48] [Client$Connection:setupIOstreams:705] Connecting to /192.168.0.182:8020
+[DEBUG] [2018-05-11 18:38:48] [Client$Connection:run:975] IPC Client (403701640) connection to /192.168.0.182:8020 from SAM: starting, having connections 1
+[DEBUG] [2018-05-11 18:38:48] [Client$Connection$3:run:1038] IPC Client (403701640) connection to /192.168.0.182:8020 from SAM sending #0
+[DEBUG] [2018-05-11 18:38:48] [Client$Connection:receiveRpcResponse:1095] IPC Client (403701640) connection to /192.168.0.182:8020 from SAM got value #0
+[DEBUG] [2018-05-11 18:38:48] [ProtobufRpcEngine$Invoker:invoke:250] Call: getFileInfo took 55ms
+[DEBUG] [2018-05-11 18:38:48] [Client$Connection$3:run:1038] IPC Client (403701640) connection to /192.168.0.182:8020 from SAM sending #1
+[DEBUG] [2018-05-11 18:38:48] [Client$Connection:receiveRpcResponse:1095] IPC Client (403701640) connection to /192.168.0.182:8020 from SAM got value #1
+[DEBUG] [2018-05-11 18:38:48] [ClientCache:stopClient:97] stopping client from cache: org.apache.hadoop.ipc.Client@676c3dce
+[DEBUG] [2018-05-11 18:38:48] [ClientCache:stopClient:103] removing client from cache: org.apache.hadoop.ipc.Client@676c3dce
+[DEBUG] [2018-05-11 18:38:48] [ClientCache:stopClient:110] stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@676c3dce
+[DEBUG] [2018-05-11 18:38:48] [Client:stop:1248] Stopping client
+[DEBUG] [2018-05-11 18:38:48] [Client$Connection:close:1198] IPC Client (403701640) connection to /192.168.0.182:8020 from SAM: closed
+[DEBUG] [2018-05-11 18:38:48] [Client$Connection:run:993] IPC Client (403701640) connection to /192.168.0.182:8020 from SAM: stopped, remaining connections 0
+[INFO ] [2018-05-11 18:40:08] [Main:main:21] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 18:40:09] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-11 18:40:09] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 18:40:09] [FileCheckUtil:checkFile:35] 20180510,服务器存在当天文件夹
+[INFO ] [2018-05-11 18:40:11] [FileCheckUtil:checkFile:70] 金额流水，实物流水,安达便利门店，商品档案表 文件名存在  验证通过 
+[INFO ] [2018-05-11 18:40:11] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 18:42:35] [Main:main:21] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 18:48:19] [Main:main:21] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 18:48:20] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-11 18:48:20] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 18:48:20] [FileCheckUtil:checkFile:35] 20180510,服务器存在当天文件夹
+[INFO ] [2018-05-11 18:48:21] [FileCheckUtil:checkFile:70] 金额流水，实物流水,安达便利门店，商品档案表 文件名存在  验证通过 
+[INFO ] [2018-05-11 18:48:21] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 18:48:30] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-11 18:48:30] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 18:48:38] [Main:main:21] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 18:54:26] [Main:main:21] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-11 18:54:27] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-11 18:54:27] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 18:54:27] [FileCheckUtil:checkFile:35] 20180510,服务器存在当天文件夹
+[INFO ] [2018-05-11 18:54:28] [FileCheckUtil:checkFile:70] 金额流水，实物流水,安达便利门店，商品档案表 文件名存在  验证通过 
+[INFO ] [2018-05-11 18:54:28] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 18:54:37] [Ftp:ftpLogOut:87] 成功登出服务器
+[INFO ] [2018-05-11 18:54:37] [Configuration:warnOnceIfDeprecated:1173] fs.default.name is deprecated. Instead, use fs.defaultFS
+[DEBUG] [2018-05-11 18:54:37] [MutableMetricsFactory:newForField:42] field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, value=[Rate of successful kerberos logins and latency (milliseconds)], about=, always=false, type=DEFAULT, sampleName=Ops)
+[DEBUG] [2018-05-11 18:54:37] [MutableMetricsFactory:newForField:42] field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, value=[Rate of failed kerberos logins and latency (milliseconds)], about=, always=false, type=DEFAULT, sampleName=Ops)
+[DEBUG] [2018-05-11 18:54:37] [MutableMetricsFactory:newForField:42] field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, value=[GetGroups], about=, always=false, type=DEFAULT, sampleName=Ops)
+[DEBUG] [2018-05-11 18:54:37] [MetricsSystemImpl:register:232] UgiMetrics, User and group related metrics
+[DEBUG] [2018-05-11 18:54:37] [KerberosName:<clinit>:89] Kerberos krb5 configuration not found, setting default realm to empty
+[DEBUG] [2018-05-11 18:54:38] [Groups:getUserToGroupsMappingService:301]  Creating new Groups object
+[DEBUG] [2018-05-11 18:54:38] [NativeCodeLoader:<clinit>:46] Trying to load the custom-built native-hadoop library...
+[DEBUG] [2018-05-11 18:54:38] [NativeCodeLoader:<clinit>:50] Loaded the native-hadoop library
+[DEBUG] [2018-05-11 18:54:38] [JniBasedUnixGroupsMapping:<clinit>:50] Using JniBasedUnixGroupsMapping for Group resolution
+[DEBUG] [2018-05-11 18:54:38] [JniBasedUnixGroupsMappingWithFallback:<init>:45] Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
+[DEBUG] [2018-05-11 18:54:38] [Groups:<init>:112] Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+[DEBUG] [2018-05-11 18:54:38] [UserGroupInformation$HadoopLoginModule:login:223] hadoop login
+[DEBUG] [2018-05-11 18:54:38] [UserGroupInformation$HadoopLoginModule:commit:158] hadoop login commit
+[DEBUG] [2018-05-11 18:54:38] [UserGroupInformation$HadoopLoginModule:commit:188] using local user:NTUserPrincipal: SAM
+[DEBUG] [2018-05-11 18:54:38] [UserGroupInformation$HadoopLoginModule:commit:194] Using user: "NTUserPrincipal: SAM" with name SAM
+[DEBUG] [2018-05-11 18:54:38] [UserGroupInformation$HadoopLoginModule:commit:204] User entry: "SAM"
+[DEBUG] [2018-05-11 18:54:38] [UserGroupInformation:loginUserFromSubject:816] Assuming keytab is managed externally since logged in from subject.
+[DEBUG] [2018-05-11 18:54:38] [UserGroupInformation:loginUserFromSubject:844] UGI loginUser:SAM (auth:SIMPLE)
+[DEBUG] [2018-05-11 18:54:38] [DFSClient$Conf:<init>:457] dfs.client.use.legacy.blockreader.local = false
+[DEBUG] [2018-05-11 18:54:38] [DFSClient$Conf:<init>:460] dfs.client.read.shortcircuit = false
+[DEBUG] [2018-05-11 18:54:38] [DFSClient$Conf:<init>:463] dfs.client.domain.socket.data.traffic = false
+[DEBUG] [2018-05-11 18:54:38] [DFSClient$Conf:<init>:466] dfs.domain.socket.path = 
+[DEBUG] [2018-05-11 18:54:38] [RetryUtils:getDefaultRetryPolicy:75] multipleLinearRandomRetry = null
+[DEBUG] [2018-05-11 18:54:38] [Server:registerProtocolEngine:237] rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@2de58d3a
+[DEBUG] [2018-05-11 18:54:38] [ClientCache:getClient:63] getting client out of cache: org.apache.hadoop.ipc.Client@2b58ec7e
+[DEBUG] [2018-05-11 18:54:38] [DomainSocketFactory:<init>:110] Both short-circuit local reads and UNIX domain socket are disabled.
+[DEBUG] [2018-05-11 18:54:38] [DataTransferSaslUtil:getSaslPropertiesResolver:183] DataTransferProtocol not using SaslPropertiesResolver, no QOP found in configuration for dfs.data.transfer.protection
+[DEBUG] [2018-05-11 18:54:38] [Client$Connection:<init>:435] The ping interval is 60000 ms.
+[DEBUG] [2018-05-11 18:54:38] [Client$Connection:setupIOstreams:705] Connecting to /192.168.0.182:8020
+[DEBUG] [2018-05-11 18:54:39] [Client$Connection:run:975] IPC Client (1668059028) connection to /192.168.0.182:8020 from SAM: starting, having connections 1
+[DEBUG] [2018-05-11 18:54:39] [Client$Connection$3:run:1038] IPC Client (1668059028) connection to /192.168.0.182:8020 from SAM sending #0
+[DEBUG] [2018-05-11 18:54:39] [Client$Connection:receiveRpcResponse:1095] IPC Client (1668059028) connection to /192.168.0.182:8020 from SAM got value #0
+[DEBUG] [2018-05-11 18:54:39] [ProtobufRpcEngine$Invoker:invoke:250] Call: getFileInfo took 58ms
+[DEBUG] [2018-05-11 18:54:39] [Client$Connection$3:run:1038] IPC Client (1668059028) connection to /192.168.0.182:8020 from SAM sending #1
+[DEBUG] [2018-05-11 18:54:39] [Client$Connection:receiveRpcResponse:1095] IPC Client (1668059028) connection to /192.168.0.182:8020 from SAM got value #1
+[DEBUG] [2018-05-11 18:54:39] [ClientCache:stopClient:97] stopping client from cache: org.apache.hadoop.ipc.Client@2b58ec7e
+[DEBUG] [2018-05-11 18:54:39] [ClientCache:stopClient:103] removing client from cache: org.apache.hadoop.ipc.Client@2b58ec7e
+[DEBUG] [2018-05-11 18:54:39] [ClientCache:stopClient:110] stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@2b58ec7e
+[DEBUG] [2018-05-11 18:54:39] [Client:stop:1248] Stopping client
+[DEBUG] [2018-05-11 18:54:39] [Client$Connection:close:1198] IPC Client (1668059028) connection to /192.168.0.182:8020 from SAM: closed
+[DEBUG] [2018-05-11 18:54:39] [Client$Connection:run:993] IPC Client (1668059028) connection to /192.168.0.182:8020 from SAM: stopped, remaining connections 0
+[INFO ] [2018-05-11 18:54:40] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-11 18:54:40] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-11 18:54:41] [FileCheckUtil:checkFile:35] 20180510,服务器存在当天文件夹

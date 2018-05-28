@@ -1,0 +1,26 @@
+[INFO ] [2018-05-13 10:09:10] [Main:main:20] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-13 10:09:11] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-13 10:09:11] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-13 10:09:11] [FileCheckUtil:checkFile:35] 20180510,服务器存在当天文件夹
+[INFO ] [2018-05-13 10:09:12] [FileCheckUtil:checkFile:70] 金额流水，实物流水,安达便利门店，商品档案表 文件名存在  验证通过 
+[INFO ] [2018-05-13 10:09:12] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-13 10:09:28] [Ftp:ftpLogOut:87] 成功登出服务器
+[INFO ] [2018-05-13 10:13:22] [Main:main:20] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-13 10:13:23] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-13 10:13:23] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-13 10:16:23] [FileCheckUtil:checkFile:35] 20180510,服务器存在当天文件夹
+[ERROR] [2018-05-13 10:16:31] [FileCheckUtil:checkFile:83] 文件夹校验未通过
+[INFO ] [2018-05-13 10:16:33] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-13 10:17:10] [Ftp:ftpLogOut:87] 成功登出服务器
+[INFO ] [2018-05-13 10:18:29] [Main:main:20] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-13 10:18:30] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-13 10:18:30] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-13 10:20:46] [FileCheckUtil:checkFile:35] 20180510,服务器存在当天文件夹
+[ERROR] [2018-05-13 10:20:46] [FileCheckUtil:checkFile:83] 文件夹校验未通过
+[INFO ] [2018-05-13 10:20:46] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-13 10:21:05] [Main:main:20] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-13 10:21:05] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-13 10:21:05] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-13 10:21:05] [FileCheckUtil:checkFile:35] 20180510,服务器存在当天文件夹
+[INFO ] [2018-05-13 10:21:06] [FileCheckUtil:checkFile:70] 金额流水，实物流水,安达便利门店，商品档案表 文件名存在  验证通过 
+[INFO ] [2018-05-13 10:21:06] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器

@@ -1,0 +1,26 @@
+[INFO ] [2018-05-15 17:12:49] [FileCheckUtil:checkFile:109] 20180510,服务器存在当天文件夹
+[ERROR] [2018-05-15 17:12:49] [FileCheckUtil:checkFile:156] 文件夹校验未通过
+[INFO ] [2018-05-15 17:12:49] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-15 18:33:53] [Main:main:21] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-15 18:33:55] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-15 18:33:55] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-15 18:35:10] [FileCheckUtil:checkFile:109] 20180510,服务器存在当天文件夹
+[ERROR] [2018-05-15 18:36:31] [FileCheckUtil:checkLineNum:190] in为空，不能读取。
+[INFO ] [2018-05-15 18:36:37] [FileCheckUtil:checkFile:142] 金额流水，实物流水,安达便利门店，商品档案表 文件名存在  验证通过 
+[INFO ] [2018-05-15 18:40:09] [Main:main:21] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-15 18:40:09] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-15 18:40:09] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-15 18:40:09] [FileCheckUtil:checkFile:109] 20180510,服务器存在当天文件夹
+[INFO ] [2018-05-15 18:40:11] [FileCheckUtil:checkFile:142] 金额流水，实物流水,安达便利门店，商品档案表 文件名存在  验证通过 
+[INFO ] [2018-05-15 18:40:11] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-15 18:40:39] [Ftp:ftpLogOut:87] 成功登出服务器
+[INFO ] [2018-05-15 18:40:43] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-15 18:46:01] [Main:main:21] started to download  myj pos data daily and new store&&product...
+[INFO ] [2018-05-15 18:46:02] [FtpDownload:startDownload:21] 开始登录ftp...
+[INFO ] [2018-05-15 18:46:02] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器
+[INFO ] [2018-05-15 18:46:02] [FileCheckUtil:checkFile:110] 20180510,服务器存在当天文件夹
+[ERROR] [2018-05-15 18:46:02] [FileCheckUtil:checkFile:147] 金额流水，实物流水,安达便利门店，商品档案表;20180510文件夹有文件缺失
+[INFO ] [2018-05-15 18:46:02] [FileCheckUtil:checkFile:110] 20180511,服务器存在当天文件夹
+[ERROR] [2018-05-15 18:46:02] [FileCheckUtil:checkFile:147] 金额流水，实物流水,安达便利门店，商品档案表;20180511文件夹有文件缺失
+[ERROR] [2018-05-15 18:46:02] [FileCheckUtil:checkFile:157] 文件夹校验未通过
+[INFO ] [2018-05-15 18:46:02] [Ftp:ftpLogin:67] 恭喜anda_user成功登陆FTP服务器

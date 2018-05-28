@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mssql-jdbc-6.1.0.jre7">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/mssql-jdbc-6.1.0.jre7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

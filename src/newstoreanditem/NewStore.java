@@ -1,5 +1,7 @@
 package newstoreanditem;
 
+import util.AndaEtlLogUtil;
+
 import java.util.*;
 
 public class NewStore {
@@ -18,6 +20,7 @@ public class NewStore {
         Set<String> set2 =storeTable.keySet();
         if(set1.size()==0 || set2.size()==0){  //读取文件时，如果其中一天数据不存在，不比较
             System.out.println("有某天的数据文件缺失 ，不执行新店铺生成操作");
+            AndaEtlLogUtil.produceEtlAndaInfoLog(endDate, startDate+"->"+endDate+"：某天的数据文件缺失，不执行新店铺生成操作");
             return;
         }
         Set<String> result =new HashSet<String>();

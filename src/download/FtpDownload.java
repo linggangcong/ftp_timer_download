@@ -1,8 +1,8 @@
 package download;
 
 import ftp.Ftp;
-import main.Main;
 import org.apache.log4j.Logger;
+import util.FileCheckUtil;
 import util.PropertiesUtil;
 import util.TimeUtil;
 
@@ -19,22 +19,18 @@ public class FtpDownload {
     public static  void startDownload(String startDate ,String endDate ) {
         Ftp ftp = new Ftp(propertiesUtil.getProperty("FtpIP"), 21, propertiesUtil.getProperty("username"), propertiesUtil.getProperty("password"));
         logger.info("开始登录ftp...");
-        MyjEtlLogUtil.produceEtlMyjErrorLog(dataRealDate, "美宜佳流水数据目录：${flowDataPath} 不存在，程序退出！");
+       // AndaEtlLogUtil.produceEtlAndaInfoLog("2018-05-11", "开始登录ftp...");
         ftp.ftpLogin();
-
-        //连接登录之后，验证ftp文件有效性。
-        Ftp.checkDirectory(startDate,endDate ,ftp.getFtpClient());
-
+        FileCheckUtil.checkFile(startDate , endDate , ftp.getFtpClient());
+        ftp.ftpLogin();
         //下载文件夹
         try {
-            //ftp.downLoadDirectory("C:\\MYJ_pos_data", directory);
-            //ftp.downLoadDirectory("C:\\MYJ_pos_data", "/20180401");
             // 字符串--date --字符串
            List<String> dataStrList= TimeUtil.getDateList(startDate ,endDate);   //20180507
-            for(String dataStr : dataStrList){
+            for(String dataStr : dataStrList){      //批量下载文件夹
                 String ftpDirectoryFinal ="/" +dataStr;
-                ftp.downLoadDirectory(propertiesUtil.getProperty("local_daily_dir"), ftpDirectoryFinal);  //   /home/etl/samgao/anda_daily/   和 /20180401
-            }
+                ftp.downLoadDirectory(propertiesUtil.getProperty("local_daily_dir"), ftpDirectoryFinal);  //   /home/etl/samgao/anda_daily/   和 /20180401   ftp下载文件夹
+        }
         } catch (IOException e) {
             e.printStackTrace();
         }

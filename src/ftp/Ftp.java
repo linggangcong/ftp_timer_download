@@ -3,13 +3,12 @@ package ftp;
  * Created by SAM on 2018/1/4.
  */
 
-import mail.Mail;
 import org.apache.commons.net.ftp.FTPClient;
 import org.apache.commons.net.ftp.FTPClientConfig;
 import org.apache.commons.net.ftp.FTPFile;
 import org.apache.commons.net.ftp.FTPReply;
 import org.apache.log4j.Logger;
-import util.FileCheckUtil;
+import util.AndaEtlLogUtil;
 import util.PropertiesUtil;
 
 import java.io.BufferedOutputStream;
@@ -103,12 +102,6 @@ public class Ftp {
         }
     }
 
-    public static boolean checkDirectory(String startDate,String endDate ,FTPClient ftpClient ) {      //安达便利门店信息表.txt  /home/etl/samgao/anda_daily/20180104  和  /20180401
-        return  FileCheckUtil.checkFile(startDate , endDate , ftpClient);
-    }
-
-
-
     /***
      * 下载文件
      * @param fileName   待下载文件名称 20180124
@@ -116,12 +109,12 @@ public class Ftp {
      * @param remoteDownLoadPath remoteFileName所在的路径
      * */
     public boolean downloadFile(String fileName, String localDires, String remoteDownLoadPath) {      //安达便利门店信息表.txt  /home/etl/samgao/anda_daily/20180104  和  /20180401
-
         String strFilePath = localDires + fileName;
         BufferedOutputStream outStream = null;
         boolean success = false;
         long localSize;
         File localFile =new File(strFilePath);     //下载某个文件出现异常，断点续传。
+        String dateStr=remoteDownLoadPath.substring(1,9);  //为日志写入日期
         try {
             this.ftpClient.changeWorkingDirectory(remoteDownLoadPath);
             outStream = new BufferedOutputStream(new FileOutputStream(strFilePath));
@@ -155,6 +148,7 @@ public class Ftp {
         }
         if (!success) {
             System.out.println(fileName + "下载失败!!!");
+            AndaEtlLogUtil.produceEtlAndaErrorLog(dateStr, fileName + "下载失败!!!"); //也是日期
             //mail.Mail.mailToMe(remoteFileName+"下载失败。当前文件夹下载失败");
             return false;
         }
@@ -169,32 +163,17 @@ public class Ftp {
     // 远程文件夹目录“/20180104”  localDirectoryPath本地文件夹路径“C:\\MYJ_pos_data”    C:\MYJ_pos_data\20180104\
     public boolean downLoadDirectory(String localDirectoryPath,String FTPDirectoryPath) throws IOException { // /home/etl/samgao/anda_daily/   和 /20180401
         String dataDirectoryName =FTPDirectoryPath.substring(1,9);  // 20180104
-        Boolean haveDirectory=false;
-        //System.out.println("Hello World!");
-        //判断ftp是否有目标文件夹。如果没有，直接返回false。
-        FTPFile[] ftpFiles= this.ftpClient.listFiles("/");
-        for (int i = 0; i < ftpFiles.length; i++) {
-            if (ftpFiles[i].getName().equals(dataDirectoryName)) {              //当天日期拼成的数据文件夹的字符串。 20180104
-                System.out.println(ftpFiles[i].getName() + "，服务器存在当天文件夹");
-                haveDirectory= true;
-                break;
-            }
-        }
-        if(!haveDirectory){
-            System.out.println(dataDirectoryName + "，服务器没有当天文件夹");
-            Mail.mailToMe("服务器没有当天的文件夹，下载失败");
-            return  false;
-        }
 
         //如果本地有当天文件，删除文件，重新建立目录，下载。
         try {
             String fileName = new File(FTPDirectoryPath).getName();     //  /20180104 --> 20180104
-            localDirectoryPath = localDirectoryPath + propertiesUtil.getProperty("linux_filename_seperator")+ fileName + propertiesUtil.getProperty("linux_filename_seperator");    // /home/etl/samgao/anda_daily/20180104   test
+            localDirectoryPath = localDirectoryPath + fileName  + propertiesUtil.getProperty("linux_filename_seperator");    // /home/etl/samgao/anda_daily/20180104   test
+
             File localDirectoryFile = new File(localDirectoryPath);
             if(localDirectoryFile.exists()) {                         // 检查是否已经存在,有就删除，重新下载。
                 System.out.println("本地存在当天文件夹，删除...");
-                localDirectoryFile.delete();
-                              //  /home/etl/samgao/anda_daily/20180104
+                AndaEtlLogUtil.produceEtlAndaInfoLog(dataDirectoryName, "本地存在当天文件夹，删除...");  //当天日期，也是文件夹名。
+                localDirectoryFile.delete();      // /home/etl/samgao/anda_daily/20180104
             }
             new File(localDirectoryPath).mkdirs();
 
@@ -218,7 +197,8 @@ public class Ftp {
             e.printStackTrace();
             return false;
         }
-        Mail.mailToMe("当天文件夹下载成功");
+        //Mail.mailToMe("当天文件夹下载成功");
+        AndaEtlLogUtil.produceEtlAndaInfoLog(dataDirectoryName, "当天文件夹下载成功");
         return true;
     }
 
